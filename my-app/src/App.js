@@ -1,11 +1,18 @@
 import "./App.module.css";
-import UseEffectCounter from "./components/UseEffectCounter";
+import Sidebar from "./components/Sidebar"
+import NavBarForm from "./components/NavBarForm";
+import ContentAPIHooks from "./components/ContentAPIHooks";
+
+
+
 
 
 function App() {
   return (
     <div className="App">
-      <UseEffectCounter />
+      <NavBarForm /> 
+      <Sidebar />
+      <ContentAPIHooks />
     </div>
   );
 }
